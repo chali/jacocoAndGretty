@@ -1,0 +1,12 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath 'org.akhikhl.gretty:gretty:2.0.0'
+	}
+}
+
+apply plugin: 'org.akhikhl.gretty'
+apply plugin: 'jacoco'
+apply plugin: 'java'
